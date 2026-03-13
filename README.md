@@ -59,14 +59,33 @@ This repository is organized to separate the **Generation**, **Validation**, and
 │   ├── AI_IMPLEMENTATION_RULES.md # Coding standards and forbidden practices
 │   └── ... (workflow, prompt, and validation protocols)
 └── Specs/                      # THE SPEC PACK (Generated interactively)
-    ├── PROBLEM_STATEMENT.md    # Core problem definition
-    ├── PRODUCT_OVERVIEW.md     # Feature list and actor definitions
-    ├── DOMAIN_SOURCE_OF_TRUTH.md # Entity relationships and domain logic
-    ├── ARCHITECTURE_PLAN.md    # Tech stack and system design
-    ├── DB_SCHEMA.sql           # Database structure
-    └── ... (Checklist, Tests, and Contracts)
+
 ```
 
+
+### Specs Final Result
+
+└── Specs/  
+| Stage | File | Contains |
+|-------|------|----------|
+| 1 | `PROBLEM_STATEMENT.md` | Why this product exists |
+| 2 | `MARKET_SCOPE.md` | Target market |
+| 3 | `VALUE_PROPOSITION.md` | Unique selling points |
+| 4 | `PRODUCT_OVERVIEW.md` | System functions and actors |
+| 5 | `MVP_SCOPE.md` | V1 vs V2 vs Out of Scope |
+| 6 | `USER_FLOWS.md` | Step-by-step user journeys |
+| 7 | `FRD.md` | Functional requirements |
+| 8 | `DOMAIN_SOURCE_OF_TRUTH.md` | Entity relationships |
+| 9 | `ENTITY_DEFINITIONS.md` | Field-level specs for all entities |
+| 10 | `STATE_MACHINE_SPEC.md` | Subscription/Payment lifecycles |
+| 11 | `EVENT_MATRIX.md` | Triggers and side effects |
+| 12 | `ARCHITECTURE_PLAN.md` | Tech stack and infrastructure |
+| 13 | `SERVICE_LAYER_SPEC.md` | Business logic methods |
+| 14 | `DB_SCHEMA.sql` | MySQL schema |
+| 15 | `BACKEND_IMPLEMENTATION_CONTRACT.md` | Never-break development rules |
+| 16 | `TDD_TESTING_GUIDE.md` | Testing strategy |
+| 17 | `IMPLEMENTATION_PLAN.md` | 4-phase development roadmap |
+| 18 | `FINAL_BLUEPRINT.md` | Summary and sign-off |
 
 ## 💡 Why This Approach?
 
