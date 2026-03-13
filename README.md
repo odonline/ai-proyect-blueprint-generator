@@ -37,23 +37,23 @@ Working Codebase
 ### Option A — Standalone (new project)
 
 ```bash
-git clone https://github.com/your-org/blueprint-engine my-project
-cd my-project
+git clone https://github.com/odonline/ai-proyect-blueprint-generator
+cd ai-proyect-blueprint-generator
 ```
 
 ### Option B — Add to existing project (git submodule)
 
 ```bash
-git submodule add https://github.com/your-org/blueprint-engine .blueprint
+git submodule add https://github.com/odonline/ai-proyect-blueprint-generator .ai-proyect-blueprint-generator
 ```
 
 Then copy the `.claude/` folder to your project root:
 
 ```bash
-cp -r .blueprint/.claude ./
-cp .blueprint/BLUEPRINT_BUILDER_AGENT.md ./
-cp .blueprint/SPEC_AUDITOR_AGENT.md ./
-cp .blueprint/CLAUDE.md ./
+cp -r .ai-proyect-blueprint-generator/.claude ./
+cp .ai-proyect-blueprint-generator/BLUEPRINT_BUILDER_AGENT.md ./
+cp .ai-proyect-blueprint-generator/SPEC_AUDITOR_AGENT.md ./
+cp .ai-proyect-blueprint-generator/CLAUDE.md ./
 mkdir -p Specs
 ```
 
@@ -163,3 +163,8 @@ Generates `Specs/SPEC_AUDIT_REPORT.md` with all detected issues.
 Hand the `Specs/` folder + `ai_control_layer/` to your implementation agent.
 
 The spec pack is the contract. The implementation agent must not deviate from it.
+
+
+## 🌐 Alternative Web Chat Option
+
+If you prefer a locally manageable web interface instead of working directly with a cli or IDE, check out **[Proyect Blueprint Builder — Web Chat](https://github.com/odonline/ai-proyect-blueprint-builder-web-chat)**. It provides a web-based chat experience as an alternative option to build your project blueprint, opensourced, and you can run it locally or deploy it on your own server.
