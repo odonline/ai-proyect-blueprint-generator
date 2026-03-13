@@ -134,4 +134,8 @@ To produce an **Implementation-Ready Contract** that is so detailed and consiste
 This agent effectively converts a raw idea into a complete software specification:
 `Idea` → `Structured Questions` → `Blueprint Documents` → `Architecture` → `Backend Spec` → `Implementation Pack`
 
+---
 
+## 🌐 Alternative Web Chat Option
+
+If you prefer a locally manageable web interface instead of working directly with a cli or IDE, check out **[Proyect Blueprint Builder — Web Chat](https://github.com/odonline/ai-proyect-blueprint-builder-web-chat)**. It provides a web-based chat experience as an alternative option to build your project blueprint, opensourced, and you can run it locally or deploy it on your own server.
